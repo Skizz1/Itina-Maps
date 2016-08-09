@@ -1,0 +1,16 @@
+body { border-top: 6px #66d9ff solid; }
+#trio { width: 100%; height: auto; margin-top: 65px; }
+#left-data {  width: 20%; height: 600px; float: left; margin-left: 4%; margin-right: 4%; margin-top: 60px; }
+#map { height: 600px; width: 800px; float: left; }
+#right-panel { display: inline-block; float: left; width: 20%; height: 600px; margin-left: 4%; margin-top: 0px; overflow: auto; }
+#transport { width: 100%; height: auto; }
+#walk, #bike { margin-bottom: 5px; }
+#car, #bus { margin-top: 4px; }
+#walk, #bus { cursor: pointer; padding: 7px 24%; margin-left: 10px; background-color: #ffb833; border: none; }
+#bike, #car { cursor: pointer; padding: 7px 12%; margin-left: 10px; background-color: #ffb833; border: none; }
+#walk:hover, #bus:hover, #bike:hover, #car:hover { background-color: #ffb366; }
+#mode { display: inline-block; background-color: #009999; text-align: center; color: white; -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none; }
+select { background: url('img/chevron-down.png') no-repeat right; }
+option { border: none; color: white; }
